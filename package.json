@@ -8,5 +8,8 @@
     "start": "node index"
   },
   "author": "TheBaconPug (https://www.thebaconpug.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "noblox.js": "^4.8.5",
+    "node-fetch": "^2.6.1"
 }
