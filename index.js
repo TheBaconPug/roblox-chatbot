@@ -1,11 +1,5 @@
 const rbx = require('noblox.js');
 const fetch = require('node-fetch');
-const http = require('http');
-const server = http.createServer((req, res) => {
-  res.writeHead(200);
-  res.end('Hey');
-});
-server.listen(process.env.PORT);
 
 const cookie = process.env.COOKIE
 
